@@ -125,7 +125,7 @@ option('nvcodec', type : 'feature', value : 'auto', description : 'NVIDIA GPU co
 option('ofa', type : 'feature', value : 'auto', description : 'Open Fingerprint Architecture library plugin')
 option('openal', type : 'feature', value : 'auto', description : 'OpenAL plugin')
 option('openexr', type : 'feature', value : 'auto', description : 'OpenEXR plugin')
-option('openh264', type : 'feature', value : 'auto', description : 'H.264 video codec plugin')
+option('openh264', type : 'feature', value : 'disabled', description : 'H.264 video codec plugin')
 option('openjpeg', type : 'feature', value : 'auto', description : 'JPEG2000 image codec plugin')
 option('openmpt', type : 'feature', value : 'auto', description : 'OpenMPT module music library plugin')
 option('openni2', type : 'feature', value : 'auto', description : 'OpenNI2 library plugin')
